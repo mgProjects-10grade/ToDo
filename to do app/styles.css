@@ -1,0 +1,33 @@
+body {
+    background: gray;
+    overflow: hidden
+}
+
+canvas {
+    border: solid white;
+    position: relative;
+}
+
+button {
+    display:inline-block;
+    padding:2% ; 
+    margin:0 0.3em 0.3em 0;
+    border-radius:1.5em;
+    box-sizing: border-box;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    font-size: 130%;
+    color:#FFFFFF;
+    background-color:chartreuse;
+    text-align:center;
+    transition: all 0.2s;   
+    width:15% 
+}
+
+button:hover{
+    background-color:#B1FF64;
+}
+
+#usernameAndPasswordContainer, #logInButton, #usernameTakenWarning{
+    position: relative;
+}    
