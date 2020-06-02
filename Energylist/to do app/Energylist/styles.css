@@ -1,0 +1,76 @@
+body {
+    background: white;
+    overflow: hidden
+}
+
+canvas {
+    border: transparent;
+    position: relative;
+}
+header
+{ 
+    color:#FFFFFF;
+    font-family:'Roboto',sans-serif; 
+    font-size: 15pt;
+    text-align: center;
+    display: block;
+    align-items: center;
+    position: relative;
+}
+
+img
+{
+     background: #FFFFFF;
+     margin:0 0.3em 0.3em 0;
+     padding: 5pt 0pt 5pt 5pt;
+     background-size: 110px;
+     background-repeat: no-repeat;
+     width: 110pt;
+     text-indent: -9999999px;
+     display: inline-block;
+     align-items: center;
+}
+button 
+{
+    display:inline-block;
+    padding: 2%; 
+    margin:0 0.3em 0.3em 0;
+    border-radius:1.5em;
+    box-sizing: border-box;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    font-size: 130%;
+    color:#FFFFFF;
+    background-color:chartreuse;
+    text-align: center;
+    transition: all 0.2s;   
+    width:15% ;
+    
+}
+#TopText
+{
+    background:black;
+    color:#FFFFFF;
+    padding: 20pt 20pt 20pt 20pt;
+    border-radius: 25px;
+    text-align: center;
+    display: block;
+    align-items: center;
+}
+b
+{
+    color:chartreuse;
+    padding: 0pt 0pt 0pt 2pt;
+    font-weight: normal;
+}
+div 
+{
+    position: center;
+}
+button:hover{
+    background-color:#B1FF64;
+}
+
+#usernameAndPasswordContainer, #logInButton, #usernameTakenWarning{
+    position: relative;
+}    
